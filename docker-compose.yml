@@ -1,6 +1,6 @@
 services:
   web-app:
-    image: tomgoodo/deployment-task-credit
+    build: ./credit-app
     container_name: deployment-task-web
     expose:
       - "5000"
