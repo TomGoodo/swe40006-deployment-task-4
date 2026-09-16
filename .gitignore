@@ -1,0 +1,4 @@
+*.pem
+.DS_STORE
+*.json
+*.log

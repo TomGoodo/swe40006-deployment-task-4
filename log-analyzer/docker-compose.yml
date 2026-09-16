@@ -1,0 +1,7 @@
+services:
+  log-analyze:
+    build: .
+    container_name: log-analyze
+    volumes:
+      - ./data/input:/data/input:ro
+      - ./data/output:/data/output
